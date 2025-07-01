@@ -21,7 +21,7 @@ The Prism Insurance Dashboard is an engaging and analytical Power BI report desi
 **3. Tech Stack**
 Example:
 Power BI Desktop - Main data visualization platform used for report creation.
-MSSQl- Converting and Formating the data.
+MSSQl- Converting and Formatting the data.
 Power Query - Data transformation and preparing data.
 File Format - .pbix for development and .png for dashboard previous.
 
@@ -37,7 +37,12 @@ Source: Insurance-Data-Analysis/InsuranceData.csv at main · SamyakAnand/Insuran
 Example:
 
 **1. Key Questions:**
-
+1. Sort the data by Gender.
+2. 2. What's the total claim amount? What’s the claim number and percentage by the different age groups?
+3. What's the total coverage amount?
+4. What's the total premium amount?
+5. What's the total Claim Status for distinct policy types?
+6. How many accounts are active and how many accounts are inactive as per the specified date.
 
 
 **2. Goal of the Dashboard:**
@@ -67,7 +72,7 @@ This bar chart illustrates the total premium amounts paid by individuals across 
 The Ribbon Chart clearly illustrates the total amount claimed across various policy types. Travel has the highest claims at 4.1K, followed by Health at 2.0K, Auto at 1.6K, Life at 1.2K, and Home at 1.0K.
 
 # Total active/Inactive Policy (Pie Chart) (Mid-right):
-The pie chart visualizes the proportion of Active and Inactive Policies, offering a detailed breakdown of each category. It highlights the total number of policies in both segments, along with their respective percentage shares. This clear segmentation allows for a quick assessment of the overall policy status, helping viewer understand the balance between active engagement and inactive accounts.
+The pie chart visualizes the proportion of Active and Inactive Policies, offering a detailed breakdown of each category. It highlights the total number of policies in both segments, along with their respective percentage shares. This clear segmentation allows for a quick assessment of the overall policy status, helping viewers understand the balance between active engagement and inactive accounts.
 
 # Total Claims Number by Age Group (Donut Chart) (Bottom Right Corner):
 The Donut Chart illustrates the total number of claims made by different age groups. The Elderly category accounted for 1.03K claims, representing 10.34% of the total. Adults made 3.97K claims, which is 39.64% of the total. Lastly, Young Adults claimed the most, with 5K claims, making up 50.02% of the overall data.
@@ -81,4 +86,6 @@ The funnel visualization displays the claim amounts categorized by their status:
 **6.Screenshots:**
 See what the dashboard 1 looks like - ![Alt Text](https://github.com/Devi27-create/Prism-Insurance/blob/main/Prism%20Insurance%20Dashboard%201.png)
 
-See what the dashboard 2 looks like - ![Alt Text]()
+See what the dashboard 2 looks like - ![Alt Text](https://github.com/Devi27-create/Prism-Insurance/blob/main/Prism%20Insurance%20Dashboard%202.png)
+
+
