@@ -79,5 +79,6 @@ This holds the total Amounts of total pending, rejected and settled with respect
 The funnel visualization displays the claim amounts categorized by their status: Settled, Pending, and Rejected. The settled claims amount to $10.11 million, while the pending claims total $6.81 million. There are no rejected claims, with the status amount at zero. 
 
 **6.Screenshots:**
-See what the dashboard looks like - ![Alt Text]()
+See what the dashboard 1 looks like - ![Alt Text](https://github.com/Devi27-create/Prism-Insurance/blob/main/Prism%20Insurance%20Dashboard%201.png)
 
+See what the dashboard 2 looks like - ![Alt Text]()
