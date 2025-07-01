@@ -16,7 +16,7 @@ A dynamic, interactive data visualization tool built to explore the various insu
 
 **2. Short Description/ Purpose**
 Example:
-Prism Insurance Dashboard is a visually engaging and analytical Power BI report designed to help users explore how many indiviuals on the basis of there gender have taken policies. Here the different kind of policy types can also be seen such as Travel, Health, Auto, Life, and Home. The dashboard focuses on highlighting Claim Status of Settled, Pending, and Rejected. with this it also plays a great role in showing the Active and Inactive policies.
+The Prism Insurance Dashboard is an engaging and analytical Power BI report designed to help users explore the number of individuals who have taken out policies based on their gender. The dashboard provides insights into various types of policies, including Travel, Health, Auto, Life, and Home. Additionally, it highlights the Claim Status, which categorizes claims as Settled, Pending, or Rejected. Furthermore, it effectively displays the count of Active and Inactive policies.
 
 **3. Tech Stack**
 Example:
@@ -29,7 +29,6 @@ File Format - .pbix for development and .png for dashboard previous.
 Example: 
 Source: Insurance-Data-Analysis/InsuranceData.csv at main · SamyakAnand/Insurance-Data-Analysis
 
-
 **5. Features/Highlights**
 1. Key Questions
 2. Goal of the Dashboard
@@ -37,40 +36,48 @@ Source: Insurance-Data-Analysis/InsuranceData.csv at main · SamyakAnand/Insuran
 
 Example:
 
-##1. Key Questions:
+**1. Key Questions:**
 
 
 
-##2. Goal of the Dashboard:
+**2. Goal of the Dashboard:**
 To deliver an interactive visual tool that enables the users to explore the data with ease. Uncover the overall Status.
 
-##3. A Walkthrough of Key Visuals:
+**3. A Walkthrough of Key Visuals:**
 
-#Multi-Row Card (top): Shows the policies taken by the Genders such as Female: a total of 5001 female took the policies while in compare to that Male took slightly more plocies with 5003 policy count.
+# Text Box: (top left corner): The text box displays the name of the insurance company, Prism Insurance Pvt. Ltd.
 
-#Filters (top Mid, Top right and the top corner): there we have 3 Filters with Claim Number, CustomerID and Policy Number values inside it which can be accessed by the dropdowns.
+# Cards (located right beneath text box):
+Here we have three cards displaying important financial figures. 
+1. The first card, **Total Claim Amount**, shows a total of **16.91 million**.
+2. The second card, **Total Coverage Amount**, indicates a total of **600.55 million**.
+3. Finally, the third card, **Total Premium Amount**, presents a total of approximately **5.98 million**.
 
-#Card (Right beneath the filter): here also we have 3 Cards which shows the total Claims number by age Groups value with 600.55M, then we have another card showing the total premium Amount of about 5.98M and the last card shows the total Claim Amount of 16.91M.
+# The Multi-Row Card (Adjacent to the text box): 
+The Multi-Row Card displays the number of policies taken by different genders. The data shows that a total of 5,001 females have taken out policies, while slightly more males, totaling 5,003 have done the same.
 
-#Claim Status By Policy Type (Waterfall/Ribbon Chart)(Mid-left):
-The Waterfall/Ribbon Chart vividly illustrates the total claim amount being claimed from the different Policy Types. as Travel Got 4.1K, Health got 2.0K, Auto Got 1.6k, Life got 1.2K and Home got 1.0K of Amount claimed. 
+# Filters (top right corner): 
+Here we also have 3  three distinct filters naming Claim Number, CustomerID and Policy Number.
+Each filter can be accessed via user-friendly dropdown menus, allowing easy select relevant values, which ensures to find the specific information needed quickly and accurately.
 
-#Total Claims Number By Age Group (Donut Chart)(Center):
-The Donut Chart shows the Total Claims taken by the different age groups, such as Elder took, 1.03K with 10.34% of total claims, on the other hand Adults Claimed 3.97K which is 39.64% of the total and lastly Young Adult claimed the most with 5K which is the 50.02% of the overall data.
+# Total Premium Amount by Policy Types (Bar Chart) (Below Cards):  
+This bar chart illustrates the total premium amounts paid by individuals across different policy types, including Travel, Health, Auto, Life, and Home. The respective amounts are as follows: Travel: $2.5 million, Health: $1.2 million, Auto: $1.0 million, Life: $0.7 million, and Home: $0.6 million.
 
-#Matrix(Mid-right): 
-This holds the total Amounts of total pending, rejected and settled with respect to the Auto, Health, Home, Life, and Travel policy types. It also shows the grand totals of pending, rejected and settled types.
+# Claim Status By Policy Type (Ribbon Chart)(Center):
+The Ribbon Chart clearly illustrates the total amount claimed across various policy types. Travel has the highest claims at 4.1K, followed by Health at 2.0K, Auto at 1.6K, Life at 1.2K, and Home at 1.0K.
 
-#Total Premium Amount By the Policy Types (Bar Chart) (bottom-left): this shows the Total premium amount given by the Indivisuals on there different policy types.
+# Total active/Inactive Policy (Pie Chart) (Mid-right):
+The pie chart visualizes the proportion of Active and Inactive Policies, offering a detailed breakdown of each category. It highlights the total number of policies in both segments, along with their respective percentage shares. This clear segmentation allows for a quick assessment of the overall policy status, helping viewer understand the balance between active engagement and inactive accounts.
 
-#Total Claim Amount By Claim Status (Funnel)(bottom-mid):
-The funnel visualization illustrates the Claim Amount Status of Settled, Pending, and Rejected.with there values. 
+# Total Claims Number by Age Group (Donut Chart) (Bottom Right Corner):
+The Donut Chart illustrates the total number of claims made by different age groups. The Elderly category accounted for 1.03K claims, representing 10.34% of the total. Adults made 3.97K claims, which is 39.64% of the total. Lastly, Young Adults claimed the most, with 5K claims, making up 50.02% of the overall data.
 
-#Total active/Inactive Policy (Pie Chart):
-The pie chart provides a breakdown of the Active and Inactive Policies. This segmentation highlights the Number and percentage of the Active and Inactive Policies.
+# Matrix(Mid-bottom): 
+This holds the total Amounts of total pending, rejected and settled with respect to the Auto, Health, Home, Life, and Travel policy types. It also shows the grand totals of pending, rejected and settled types. Additionally, it presents the cumulative totals for pending, rejected, and settled claims, giving a comprehensive overview of the overall performance in these different areas.
+
+# Total Claim Amount By Claim Status (Funnel)(bottom left corner):
+The funnel visualization displays the claim amounts categorized by their status: Settled, Pending, and Rejected. The settled claims amount to $10.11 million, while the pending claims total $6.81 million. There are no rejected claims, with the status amount at zero. 
 
 **6.Screenshots:**
-See what the dashboard looks like -
-
-
+See what the dashboard looks like - ![Alt Text]()
 
